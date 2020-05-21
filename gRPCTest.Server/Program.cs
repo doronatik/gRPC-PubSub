@@ -68,6 +68,7 @@ namespace gRPCTest.Server
                     }
                     catch (Exception e)
                     {
+                        //We should remove this dictionary entry, but it causes issues...
                         //_subscriberWritersMap.Remove(subscription.Id);
                     }
                 }
